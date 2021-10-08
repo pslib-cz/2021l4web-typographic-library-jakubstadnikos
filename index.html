@@ -21,14 +21,16 @@
                 <li><a href="#typography">Typography</a></li>
                 <li><a href="#quotes">Quotes</a></li>
                 <li><a href="#lists">Lists</a></li>
-                <li><a href="#">Download</a></li>
+                <li><a href="#image-gallery">Image gallery</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="typography.css" download="typography.css">Download</a></li>
               </ul>
             </div>
           </nav>
     </header>
    <main>
-        <section class="container wrapper">
-            <h3 id="typography">Typography</h3>
+        <section id="typography" class="container wrapper">
+            <h3 >Typography</h3>
             <h1>Heading  <span> <code>&lt;h1&gt;</code></span></h1>
             <h2>Heading <span><code>&lt;h2&gt;</code></span></h2>
             <h3>Heading <span><code>&lt;h3&gt;</code></span></h3>
@@ -69,7 +71,7 @@
           </section>
       
         <section class="container wrapper" id="lists">
-            <h2 id="lists" class="title">Lists</h2>
+            <h2 class="title">Lists</h2>
       
             <div class="example">
               <div class="space-after">
@@ -117,7 +119,7 @@
             </div>
           </section>
          <section class="container" id="image-gallery">
-             <h2 class="wrapper">Image gallery</h2>
+             <h2 class="wrapper title">Image gallery</h2>
             <div class="container-all">
                 <div class="image-container">
                   <a href="https://bit.ly/2PvlS8Z"><img src="https://bit.ly/2PvlS8Z" alt=""></a>
@@ -151,13 +153,60 @@
                 </div>
                 </div>
          </section>
-          
          <section class="wrapper">
-           <h2 id="forms">Forms</h2>
+<h2 class="title">Image</h2>
+<img src="https://bit.ly/2zd3HLf" alt="">
+         </section>
+         <section class="wrapper">  
+         <h2 class="title">Buttons</h2>
+
+         <div>
+          <button class="button">Button1</button>
+          <button class="button button-outline">Button2</button>
+          <button class="button button-clear">Button3</button>
+        </div>
+          
+
+          </section>
+          <section class="tables" id="tables">
+            <h2>Tables</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Height</th>
+                  <th>Favourite food</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Leroy Kay</td>
+                  <td>13</td>
+                  <td>2.06 m</td>
+                  <td>Pizza</td>
+                </tr>
+                <tr>
+                  <td>Emma-Louise Appleton</td>
+                  <td>32</td>
+                  <td>1,91 m</td>
+                  <td>Apple pie</td>
+                </tr>
+                <tr>
+                  <td>Juanita Eastwood</td>
+                  <td>21</td>
+                  <td>2,01 m</td>
+                  <td>Kebab</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+         <section id="forms" class="wrapper">
+           <h2 >Forms</h2>
            <div class="form">
             <form action="/action_page.php">
               <label for="fname">Text</label>
-              <input type="text" id="text" name="text" placeholder="You can write some text">
+              <input type="text" id="text" name="text" liplaceholder="You can write some text">
               <label for="email">Email </label>
               <input type="email" id="email" placeholder="Email">
              <label for="tel">Phone number</label>
@@ -187,7 +236,7 @@
                 <input type="checkbox" id="checkboxField1">
                 <label class="label-inline" for="checkboxField1">Checkbox field 1</label>
               </div>
-              <div>
+              <div class="radioField">
                 <input type="checkbox" id="checkboxField2">
                 <label class="label-inline" for="checkboxField2">Checkbox field 2</label>
               </div>
