@@ -1,5 +1,5 @@
 # Typographic-library
-**Author:** *ŠJakub Stádník*
+**Author:** *Jakub Stádník*
 ## Demo site
 Link to site **[demo](https://pslib-cz.github.io/2021l4web-typographic-library-jakubstadnikos/)** 
 ## Description
