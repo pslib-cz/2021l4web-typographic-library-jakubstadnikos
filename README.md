@@ -7,7 +7,7 @@ CSS library
 ## Implementation
 Download typography.css in docs folder and link it to your HTML page 
 ```html
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="typography.css">
 ```
 ## Docs
 #### Usable markdown tags
